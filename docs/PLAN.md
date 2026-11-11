@@ -9,7 +9,7 @@ One system, twelve weekends. Weekdays are for the course, the books and exercise
 * Every build ends with something committed and tagged.
 * From week 2, save five test prompts with the expected behavior every weekend. They go in `evals`.
 * Thursday ends with a short build brief for the weekend. Briefs go in `docs/briefs`.
-* The plan changes only at a Monday review, and only at a four week boundary. New ideas go on the parked list.
+* The plan is fixed through Jan 31, 2027. Monday reviews adjust pace and catch up, and they don't add topics. New ideas go on the parked list.
 
 ## Weekend builds
 
@@ -50,7 +50,9 @@ Designing Data-Intensive Applications runs alongside as slower reading.
 * Retrieval starts with full text search. Vectors get added only after evals can measure the difference.
 * The agent loop is written by hand before any SDK does it for me.
 
-## Parked until after the second demo
+## Parked until this cycle ends on Jan 31, 2027
+
+Nothing on this list starts before the final demo. It gets reviewed at the Monday review on Feb 1, 2027, when the next cycle is chosen.
 
 * Go
 * Other courses and certifications
