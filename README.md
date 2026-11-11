@@ -37,3 +37,7 @@ The full plan is in [docs/PLAN.md](docs/PLAN.md).
 ## Status
 
 Starting. Build 01 lands the weekend of Nov 14, 2026.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
