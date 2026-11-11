@@ -10,6 +10,7 @@ One system, twelve weekends. Weekdays are for the course, the books and exercise
 * From week 2, save five test prompts with the expected behavior every weekend. They go in `evals`.
 * Thursday ends with a short build brief for the weekend. Briefs go in `docs/briefs`.
 * The plan is fixed through Jan 31, 2027. Monday reviews adjust pace and catch up, and they don't add topics. New ideas go on the parked list.
+* Exercises and experiments live in a separate practice repo. This repo holds the twelve builds and nothing else.
 
 ## Weekend builds
 
@@ -41,6 +42,27 @@ One system, twelve weekends. Weekdays are for the course, the books and exercise
 | 11 to 12 | Browser basics, guardrails, red team preparation |
 
 Designing Data-Intensive Applications runs alongside as slower reading.
+
+## Friday exploration
+
+Friday evening is for exploring how good engineers work with coding agents. It is reading and trying things out, and it does not produce code for the weekday study or the weekend builds.
+
+* Catch up comes first. If a weekday item slipped, Friday goes to that.
+* One topic per Friday, 60 to 90 minutes.
+* It ends with a short note on what I tried and what I would keep.
+* Experiments happen in the practice repo. Nothing from them enters this repo before Jan 31, 2027.
+* After a heavy week I skip it and rest. Skipped Fridays are not made up.
+
+| Friday | Topic |
+|---|---|
+| Nov 13 | Matt Pocock's skills repo: the README and the grill-me, tdd and codebase-design skills |
+| Nov 20 | Matt Pocock's skills repo: install it in the practice repo and run one skill end to end |
+| Nov 27 | pstack from the Cursor plugins repo |
+| Dec 4 | Compound engineering |
+| Dec 11 | Compound writing |
+| Dec 18 | No slop repos and engineering practices for agent harnesses |
+| Dec 25 and Jan 1 | Rest |
+| Jan 8 onward | Chosen at the Monday review |
 
 ## Design decisions
 
