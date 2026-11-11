@@ -58,3 +58,4 @@ Nothing on this list starts before the final demo. It gets reviewed at the Monda
 * Other courses and certifications
 * Porting one feature to a popular AI framework
 * A locally hosted embedding model
+* A personal assistant agent that messages me each day and tracks my progress, built from the parts this project teaches
