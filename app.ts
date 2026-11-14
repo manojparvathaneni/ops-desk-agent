@@ -27,16 +27,18 @@ async function main():Promise<void>{
     const rl = readline.createInterface({ input, output });
     try {
         while(true) {
-            history.push({ role: "user", content: await rl.question("user: ") });
+            const userInput = await rl.question("user: ");
+            if (userInput.trim().toLowerCase() === "exit") {
+                break;
+            }
+            if (userInput.trim() === "") {
+                continue;
+            }
+            const userMessage: Anthropic.MessageParam = { role: "user", content: userInput };
             try {
-                const llmresponse = await callLLM(history, "claude-haiku-5-5");
-                if (llmresponse) {
-                    if (llmresponse.trim().toLowerCase() === "exit") {
-                        break;
-                    }
-                    history.push({ role: "assistant", content: llmresponse });     
-                    console.log( `assistant: ${llmresponse}`);
-                }
+                const llmresponse = await callLLM([...history, userMessage], "claude-haiku-5-5");
+                history.push(userMessage, { role: "assistant", content: llmresponse });
+                console.log(`assistant: ${llmresponse}`);
             } catch (error) {
                 console.error("Error calling Claude:", error);
             }
