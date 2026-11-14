@@ -36,7 +36,20 @@ The full plan is in [docs/PLAN.md](docs/PLAN.md).
 
 ## Status
 
-Starting. Build 01 lands the weekend of Nov 14, 2026.
+Build 01 is done. `app.ts` is a terminal chat with Claude that keeps the conversation history, reads the API key from `.env`, and handles API errors, empty input, `exit`, Ctrl+C and Ctrl+D.
+
+## Running it
+
+Requires Node 26, which runs TypeScript directly.
+
+```sh
+npm install
+npm start
+```
+
+Before starting, create a `.env` file in the project root with one line: `ANTHROPIC_API_KEY=` followed by your key.
+
+Type check with `npm run typecheck`.
 
 ## License
 
