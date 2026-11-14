@@ -44,10 +44,11 @@ Requires Node 26, which runs TypeScript directly.
 
 ```sh
 npm install
+cp .env.example .env
 npm start
 ```
 
-Before starting, create a `.env` file in the project root with one line: `ANTHROPIC_API_KEY=` followed by your key.
+Put your key in `.env` before running `npm start`.
 
 Type check with `npm run typecheck`.
 
